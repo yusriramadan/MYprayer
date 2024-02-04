@@ -1,0 +1,101 @@
+body {
+  font-family:sans-serif;
+}
+
+#app {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+
+  background-color: #dee2e6;
+  border: 3px solid #8d99ae62;
+
+  user-select: none;
+
+}
+
+#card {
+  box-shadow: 5px 10px 6px rgba(0, 0, 0, 0.061);
+  border-radius: 10px;
+
+}
+
+#app h1 {
+  margin: 0;
+  padding: 15px 0;
+  border-radius: 8px 8px 0 0;
+
+  background-color: #00916e;
+  color: white;
+
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 800;
+
+}
+
+
+#app h2{
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #008062;
+  font-weight: bold;
+  color: #feefe5;
+
+}
+
+#app table {
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
+  background-color: #f8f9fa;
+
+
+}
+
+#app table tr {
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+
+#app table tr:nth-child(even) {
+  background-color: #e9ecef;
+
+}
+
+#app table tr:hover {
+  background-color: #fa003f;
+  color: white;
+
+}
+
+#app table td {
+  padding: 5px 30px;
+
+}
+
+#app table td:last-child {
+  text-align: right;
+
+}
+
+#app > #card  div {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 8px 0;
+  line-height: 20px;
+  text-align: center;
+  background-color: #009B77;
+  font-weight: bold;
+  color: #feefe5;
+  border-radius: 0 0 8px 8px;
+
+
+}
