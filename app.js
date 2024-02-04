@@ -36,7 +36,7 @@ function error() {
 }
 
 function setPrayerTimes(latitude, longitude) {
-  fetch(`http://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=4`).then(response => response.json()).then(response => {
+  fetch(`http://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=2`).then(response => response.json()).then(response => {
     const card = document.getElementById("card");
     const table = document.createElement("table");
     const tbody = document.createElement("tbody");
